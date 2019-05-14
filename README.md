@@ -14,6 +14,8 @@ These scripts are those used for the dialogue involving microbial metabolic path
 
 Both scripts should be executed from the folder containing the data.
 
+The scripts were tested using R version 3.5.0 (2018-04-23) -- "Joy in Playing"
+
 ## Input data
 
 - microbiome relative abundances and confounders: tab-separated file, describing species/metabolic pathways relative abundances. Abundances should have been previously arcsine square-root transformed, filtered for outliers using the Grubbs outlier test (significance threshold P=0.05), and standardised to have zero mean and unit variance. This file should also includes the confounders (age, sex)
